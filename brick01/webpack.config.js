@@ -1,8 +1,10 @@
+var path = require( "path" );
+
 //单入口
 module.exports = {
-  entry: './main1.js',
+  entry: path.resolve( './main1.js' ),
   output: {
-    filename: 'bundle.js'
+    filename: path.resolve('bundle.js')
   }
 };
 //多入口
