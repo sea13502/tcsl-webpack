@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.26.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "node-sass": "^3.13.0",
     "path": "^0.12.7",
     "sass-loader": "^4.0.2",
