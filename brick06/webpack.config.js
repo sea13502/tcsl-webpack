@@ -6,6 +6,6 @@ module.exports = {
 		filename:path.resolve("bundle.js")
 	},
 	externals:{
-		"data":"data"
+		"data":"data1"
 	}
 };
